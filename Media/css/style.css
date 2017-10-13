@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: lightgrey;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   text-align: center;
 }
@@ -34,13 +34,20 @@ p {
 }
 
 nav a {
-  border-style: solid;
-  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+  border-radius: 25px;
 }
 
 .timeline h3 {
   background-color: rgba(0, 0, 0, 0.5);
-  border: 10px solid white;
+  border: 7px solid white;
   border-radius: 25px;
   color: white;
   font-size: 100px;
