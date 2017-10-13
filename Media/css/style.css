@@ -40,11 +40,12 @@ nav a {
 
 .timeline h3 {
   background-color: rgba(0, 0, 0, 0.5);
-  border: 5px solid white;
+  border: 10px solid white;
+  border-radius: 25px;
   color: white;
   font-size: 100px;
+  margin: 25px auto;
   position: relative;
-  top: 100px;
-  margin: 0 auto;
-  width: 35%;
+  top: 75px;
+  width: 400px;
 }
