@@ -1,7 +1,18 @@
 body {
-  background-color: lightgrey;
+  background-color: rgba(0, 0, 0, 0.9);
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  color: white;
   text-align: center;
+}
+
+h1 {
+  font-size: 110px;
+  border-style: dotted none;
+  padding: 25px 0;
+}
+
+h3 {
+  font-size: 50px;
 }
 
 #prva_leta header {
@@ -18,7 +29,7 @@ body {
   background-position: center top;
 }
 
-#sedanjost header {
+#danes header {
   background-image: url("/Media/danes.jpg");
   height: 960px;
   background-repeat: no-repeat;
@@ -26,20 +37,24 @@ body {
 }
 
 p {
+  font-size: 18px;
   text-align: justify;
 }
 
 .navigate p {
+  margin: 25px;
   text-align: center;
 }
 
-nav a {
+.navigate a {
   background-color: rgba(0, 0, 0, 0.5);
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 5px;
+  color: white;
+  padding: 5px;
 }
 
-nav a:hover {
+.navigate a:hover {
   background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid white;
   border-radius: 25px;
@@ -47,10 +62,11 @@ nav a:hover {
 
 .timeline h3 {
   background-color: rgba(0, 0, 0, 0.5);
-  border: 7px solid white;
+  border: 2px solid white;
   border-radius: 25px;
   color: white;
   font-size: 100px;
+  font-weight: normal;
   margin: 25px auto;
   position: relative;
   top: 75px;
